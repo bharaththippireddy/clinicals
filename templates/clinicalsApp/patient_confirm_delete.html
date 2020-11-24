@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <body>
+    <h2>Delete patient {{patient.firstName}} ?</h2>
+    <form method="post">
+      <input type="submit" value="Confirm">
+      <a href="/">Cancel</a>
+      {%csrf_token%}
+    </form>
+  </body>
+</html>

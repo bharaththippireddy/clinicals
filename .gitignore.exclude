@@ -1,0 +1,4 @@
+**/migrations
+*.DS_Store
+**/pycache
+**/.DS_Store
